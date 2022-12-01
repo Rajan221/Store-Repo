@@ -1,0 +1,97 @@
+body {
+  font-size: 20px;
+  padding: 0px;
+}
+
+/* top nav */
+#top {
+  background-color: #03305b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#top a {
+  color: white;
+  text-decoration: none;
+}
+
+#wel {
+  margin-right: 5vw;
+}
+
+/* mid section */
+#mid {
+  display: flex;
+}
+
+/* left pannel */
+#active {
+  background-color: #fe6807;
+  color: white;
+}
+
+#sidePanel {
+  color: #88b1cc;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+#sidePanel div {
+  width: 15vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* right form pannel */
+#Uplod {
+  display: flex;
+  padding: 10px;
+}
+
+#item {
+  border: 2px solid #e8ecef;
+  border-bottom: none;
+  padding: 10px;
+}
+
+#uplodImage {
+  color: #88b1cc;
+  padding: 10px;
+}
+
+#right {
+  padding: 20px;
+  width: 100%;
+}
+
+/* right top part */
+#imgDetails {
+  background-color: #f7f7f7;
+  border: 1px solid #e8ecef;
+  padding: 15px;
+}
+
+/* right top second part */
+#details {
+  border: 1px solid #e8ecef;
+  padding: 20px;
+}
+
+#form {
+  padding: 20px;
+}
+
+/* buttons css */
+#AddItem,
+#Update,
+#Delete,
+#Clear {
+  margin-right: 5px;
+}
+
+#actions {
+  display: flex;
+}
